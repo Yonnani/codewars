@@ -1,6 +1,6 @@
 function towerBuilder(nFloors) {
     var returnArr = [];
-    var spaceCnt = nFloors - 1;
+    var spaceCnt = nFloors - 1; //
     var blockCnt = 0;
     while(spaceCnt >= 0) {
         var ele = '';
@@ -23,3 +23,13 @@ function towerBuilder(nFloors) {
     }
     return returnArr;
 }
+
+/*
+ * String.prototype.repeat()
+ * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
+ */
+
+/*
+ * Array.from()
+ * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+ */
